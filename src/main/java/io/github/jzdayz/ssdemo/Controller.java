@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class Controller {
 
-    @Secured("ADMIN")
+    @Secured("ROLE_USER")
     @GetMapping("/test")
     public Object test(){
         return "OK";

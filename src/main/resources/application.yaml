@@ -2,6 +2,6 @@ spring:
   security:
     user:
       name: root
-      password: 123123123
+      password: 123
       roles:
-        - TEST
+        - USER
